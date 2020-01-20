@@ -13,18 +13,11 @@
             "homepage": "http://www.bitendian.com"
         }
     ],
-    "repositories": [
-        { "type": "vcs", "url": "git@github.com:Bitendian/tbp.git" },
-        { "type": "vcs", "url": "git@github.com:Bitendian/tbp-jwt.git" },
-        { "type": "vcs", "url": "git@github.com:Bitendian/tbp-i18n-manager.git" },
-        { "type": "vcs", "url": "git@github.com:Bitendian/tbp-deploy.git" },
-        { "type": "vcs", "url": "git@github.com:Bitendian/tbp-html-helpers.git" }
-    ],
     "require": {
         "bitendian/tbp": "^1.0",
-        "bitendian/tbp-jwt": "*",
-        "bitendian/tbp-i18n-manager": "*",
-        "bitendian/tbp-deploy": "*",
-        "bitendian/tbp-html-helpers": "*"
+        "bitendian/tbp-jwt": "^0.9",
+        "bitendian/tbp-i18n-manager": "^0.9",
+        "bitendian/tbp-deploy": "^0.9",
+        "bitendian/tbp-html-helpers": "^0.9"
     }
 }
